@@ -3,6 +3,9 @@ package com.pixeldual.fold
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.content.Intent
+import android.net.Uri
+import android.provider.Settings
 import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.rememberLauncherForActivityResult
@@ -74,6 +77,7 @@ class MainActivity : ComponentActivity() {
                 else -> 2
             }
             var concurrentOverrideRequested by remember { mutableStateOf(false) }
+            var isDesktopOverlayEnabled by remember { mutableStateOf(false) }
 
             var customBitmap by remember { mutableStateOf<ImageBitmap?>(null) }
             val lifecycleOwner = LocalLifecycleOwner.current
@@ -182,12 +186,33 @@ class MainActivity : ComponentActivity() {
                     isSimulated = isSimulated,
                     isDualScreenActive = isDualScreenActive,
                     isDualScreenSupported = isDualScreenSupported,
+                    isDesktopOverlayEnabled = isDesktopOverlayEnabled,
                     customBitmap = customBitmap,
                     onToggleDualScreen = {
                         if (isDualScreenActive) {
                             dualScreenManager.stopDualScreenPresentation()
                         } else {
                             dualScreenManager.startDualScreenPresentation(renderAngle, customBitmap)
+                        }
+                    },
+                    onToggleDesktopOverlay = {
+                        if (!Settings.canDrawOverlays(this@MainActivity)) {
+                            startActivity(
+                                Intent(
+                                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                                    Uri.parse("package:$packageName"),
+                                ),
+                            )
+                        } else {
+                            val serviceIntent = Intent(this@MainActivity, DesktopOverlayService::class.java)
+                            if (isDesktopOverlayEnabled) {
+                                stopService(serviceIntent)
+                            } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                                ContextCompat.startForegroundService(this@MainActivity, serviceIntent)
+                            } else {
+                                startService(serviceIntent)
+                            }
+                            isDesktopOverlayEnabled = !isDesktopOverlayEnabled
                         }
                     },
                     onSimulateAngleChange = { angle -> hingeTracker.setSimulatedAngle(angle) },

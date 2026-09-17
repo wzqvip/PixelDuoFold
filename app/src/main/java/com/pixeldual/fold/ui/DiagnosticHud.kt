@@ -41,10 +41,12 @@ fun DiagnosticHud(
     isSimulated: Boolean,
     isDualScreenActive: Boolean,
     isDualScreenSupported: Boolean,
+    isDesktopOverlayEnabled: Boolean,
     useSoloPerspective: Boolean,
     hasCustomImage: Boolean,
     onTogglePerspective: () -> Unit,
     onToggleDualScreen: () -> Unit,
+    onToggleDesktopOverlay: () -> Unit,
     onSimulateAngleChange: (Float) -> Unit,
     onToggleSimulation: (Boolean) -> Unit,
     onPickImage: () -> Unit,
@@ -127,6 +129,25 @@ fun DiagnosticHud(
                                 enabled = isDualScreenSupported || isDualScreenActive,
                             )
                         }
+                    }
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.SpaceBetween,
+                    ) {
+                        Column {
+                            Text("Desktop overlay", style = MaterialTheme.typography.bodyLarge)
+                            Text(
+                                "Draw the fold visual above other apps",
+                                style = MaterialTheme.typography.labelSmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            )
+                        }
+                        Switch(
+                            checked = isDesktopOverlayEnabled,
+                            onCheckedChange = { onToggleDesktopOverlay() },
+                        )
                     }
 
                     Row(
