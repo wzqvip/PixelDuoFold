@@ -1,0 +1,1450 @@
+Captured at: 21:49:18.063
+Sensor Device:
+Total 54 h/w sensors, 54 running 1 disabled clients:
+0x00000001) active-count = 1; sampling_period(ms) = {1.0}, selected = 1.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x01010001) active-count = 5; sampling_period(ms) = {20.0, 200.0, 666.7, 200.0, 200.0}, selected = 20.00 ms; batching_period(ms) = {0.0, 2000.0, 0.0, 0.0, 0.0}, selected = 0.00 ms
+0x01010002) active-count = 1; sampling_period(ms) = {200.0}, selected = 200.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x01010003) active-count = 1; sampling_period(ms) = {800.0}, selected = 800.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x01010006) active-count = 1; sampling_period(ms) = {20.0}, selected = 20.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x01010008) active-count = 1; sampling_period(ms) = {200.0}, selected = 200.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x01010009) active-count = 2; sampling_period(ms) = {250.0, 250.0}, selected = 250.00 ms; batching_period(ms) = {0.0, 0.0}, selected = 0.00 ms
+0x0101000f) active-count = 2; sampling_period(ms) = {20.0, 66.7(disabled)}, selected = 20.00 ms; batching_period(ms) = {0.0, 0.0(disabled)}, selected = 0.00 ms
+0x01010016) active-count = 4; sampling_period(ms) = {1.0, 1.0, 1.0, 1.0}, selected = 1.00 ms; batching_period(ms) = {0.0, 0.0, 0.0, 0.0}, selected = 0.00 ms
+0x01010018) active-count = 1; sampling_period(ms) = {1000.0}, selected = 1000.00 ms; batching_period(ms) = {60000.0}, selected = 60000.00 ms
+0x0101001a) active-count = 1; sampling_period(ms) = {1.0}, selected = 1.00 ms; batching_period(ms) = {0.0}, selected = 0.00 ms
+0x0101001c) active-count = 2; sampling_period(ms) = {200.0, 66.7}, selected = 66.67 ms; batching_period(ms) = {0.0, 0.0}, selected = 0.00 ms
+0x0101001f) active-count = 6; sampling_period(ms) = {1.0, 1.0, 1.0, 1.0, 1.0, 1.0}, selected = 1.00 ms; batching_period(ms) = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, selected = 0.00 ms
+0x01010033) active-count = 3; sampling_period(ms) = {250.0, 250.0, 200.0}, selected = 200.00 ms; batching_period(ms) = {0.0, 0.0, 0.0}, selected = 0.00 ms
+Sensor List:
+0x00000001) Dynamic Sensor Manager    | Google          | ver: 1 | type: android.sensor.dynamic_sensor_meta(32) | perm: n/a | flags: 0x00000007
+	special-trigger | minRate=1000.00Hz | maxRate=1000.00Hz | no batching | wakeUp | 
+0x01010001) ICM45631 Accelerometer    | Invensense      | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=400.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010002) ICM45621 Accelerometer    | Invensense      | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010003) Flip-side Magnetometer    | Google          | ver: 1 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.25Hz | maxRate=100.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x01010004) MMC5616 Magnetometer      | MEMSIC          | ver: 1 | type: android.sensor.magnetic_field(2) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.25Hz | maxRate=100.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x01010005) Orientation Sensor        | Google          | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010006) ICM45631 Gyroscope        | Invensense      | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=400.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010007) ICM45621 Gyroscope        | Invensense      | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010008) Virtual Ambient Light     | Google          | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x01010009) TCS3743 Ambient Light     | AMS             | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101000a) TMD3743 Ambient Light     | AMS             | ver: 1 | type: android.sensor.light(5) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101000b) SPL07003 Barometer        | Goermicro       | ver: 1 | type: android.sensor.pressure(6) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.00Hz | maxRate=25.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x0101000c) Virtual Proximity (wake-up) | Google          | ver: 1 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000003
+	on-change | minRate=10.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | wakeUp | 
+0x0101000d) TMD3743 Proximity (wake-up) | AMS             | ver: 1 | type: android.sensor.proximity(8) | perm: n/a | flags: 0x00000003
+	on-change | minRate=10.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | wakeUp | 
+0x0101000e) Gravity Sensor            | Google          | ver: 1 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000900
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+	highest rate level = 2, support shared mem: gralloc, 
+0x0101000f) Linear Acceleration Sensor | Google          | ver: 1 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=50.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010010) Rotation Vector Sensor    | Google          | ver: 1 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x01010011) Flip-side Magnetometer-Uncalibrated | Google          | ver: 1 | type: android.sensor.magnetic_field_uncalibrated(14) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.25Hz | maxRate=100.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x01010012) MMC5616 Magnetometer-Uncalibrated | MEMSIC          | ver: 1 | type: android.sensor.magnetic_field_uncalibrated(14) | perm: n/a | flags: 0x00000880
+	continuous | minRate=1.25Hz | maxRate=100.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+	highest rate level = 1, support shared mem: gralloc, 
+0x01010013) Game Rotation Vector Sensor | Google          | ver: 1 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x01010014) ICM45631 Gyroscope-Uncalibrated | Invensense      | ver: 1 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=400.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010015) ICM45621 Gyroscope-Uncalibrated | Invensense      | ver: 1 | type: android.sensor.gyroscope_uncalibrated(16) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x01010016) Significant Motion (wake-up) | Google          | ver: 1 | type: android.sensor.significant_motion(17) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x01010017) Step Detector             | Google          | ver: 1 | type: android.sensor.step_detector(18) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000006
+	special-trigger | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010018) Step Counter              | Google          | ver: 1 | type: android.sensor.step_counter(19) | perm: android.permission.ACTIVITY_RECOGNITION | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010019) Geomagnetic Rotation Vector Sensor | Google          | ver: 1 | type: android.sensor.geomagnetic_rotation_vector(20) | perm: n/a | flags: 0x00000000
+	continuous | minRate=5.00Hz | maxRate=200.00Hz | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101001a) Tilt Sensor (wake-up)     | Google          | ver: 1 | type: android.sensor.tilt_detector(22) | perm: n/a | flags: 0x00000007
+	special-trigger | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x0101001b) Lift to Wake Sensor (wake-up) | Google          | ver: 1 | type: android.sensor.pick_up_gesture(25) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x0101001c) Device Orientation        | Google          | ver: 1 | type: android.sensor.device_orientation(27) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x0101001d) ICM45631 Accelerometer-Uncalibrated | Invensense      | ver: 1 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=400.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x0101001e) ICM45621 Accelerometer-Uncalibrated | Invensense      | ver: 1 | type: android.sensor.accelerometer_uncalibrated(35) | perm: n/a | flags: 0x000009c0
+	continuous | minRate=1.50Hz | maxRate=200.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | has-additional-info, 
+	highest rate level = 3, support shared mem: gralloc, 
+0x0101001f) Hinge Angle (wake-up)     | Google          | ver: 1 | type: android.sensor.hinge_angle(36) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x01010020) ICM45631 Temperature      | Invensense      | ver: 1 | type: com.google.sensor.gyro_temperature(65538) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.50Hz | maxRate=50.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010021) ICM45621 Temperature      | Invensense      | ver: 1 | type: com.google.sensor.gyro_temperature(65538) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.50Hz | maxRate=50.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010022) SPL07003 Temperature      | Goermicro       | ver: 1 | type: com.google.sensor.pressure_temp(65539) | perm: n/a | flags: 0x00000000
+	continuous | minRate=1.00Hz | maxRate=25.00Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010023) Camera V-Sync 0           | Google          | ver: 1 | type: com.google.sensor.camera_vsync(65541) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010024) Camera V-Sync 1           | Google          | ver: 1 | type: com.google.sensor.camera_vsync(65541) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010025) Camera V-Sync 2           | Google          | ver: 1 | type: com.google.sensor.camera_vsync(65541) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010026) Camera V-Sync 3           | Google          | ver: 1 | type: com.google.sensor.camera_vsync(65541) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010027) Camera V-Sync 4           | Google          | ver: 1 | type: com.google.sensor.camera_vsync(65541) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x01010028) Inner Touch Gesture Sensor (wake-up) | Google          | ver: 1 | type: com.google.sensor.touch_gesture(65543) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x01010029) Virtual Color             | Google          | ver: 1 | type: com.google.sensor.color(65544) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101002a) TCS3743 Color             | AMS             | ver: 1 | type: com.google.sensor.color(65544) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101002b) TMD3743 Color             | AMS             | ver: 1 | type: com.google.sensor.color(65544) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x0101002c) VD6282 Rear Light Sensor  | STMicro         | ver: 1 | type: com.google.sensor.rear_light(65545) | perm: n/a | flags: 0x00000000
+	continuous | minRate=2.44Hz | maxRate=62.50Hz | FIFO (max,reserved) = (3000, 3000) events | non-wakeUp | 
+0x0101002d) DRV5032 Hall Effect Sensor 0 (wake-up) | Texas Instruments | ver: 1 | type: com.google.sensor.hall_effect(65547) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x0101002e) DRV5032 Hall Effect Sensor 1 (wake-up) | Texas Instruments | ver: 1 | type: com.google.sensor.hall_effect(65547) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x0101002f) Double Twist (wake-up)    | Google          | ver: 1 | type: com.google.sensor.double_twist(131073) | perm: n/a | flags: 0x00000007
+	special-trigger | maxDelay=0us | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x01010030) Binned Brightness 0 (wake-up) | Google          | ver: 1 | type: com.google.sensor.binned_brightness(131077) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x01010031) Binned Brightness 1 (wake-up) | Google          | ver: 1 | type: com.google.sensor.binned_brightness(131077) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (3000, 3000) events | wakeUp | 
+0x01010032) Proximity Gated Single Tap Gesture (wake-up) | Google          | ver: 1 | type: com.google.sensor.single_touch(131083) | perm: n/a | flags: 0x00000005
+	one-shot | maxDelay=0us | minDelay=-1us | no batching | wakeUp | 
+0x01010033) Auto Brightness 0         | Google          | ver: 1 | type: com.google.sensor.auto_brightness(131088) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x01010034) Auto Brightness 1         | Google          | ver: 1 | type: com.google.sensor.auto_brightness(131088) | perm: n/a | flags: 0x00000002
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | non-wakeUp | 
+0x01010035) Proximity(Voice Calls) Sensor (wake-up) | Google          | ver: 1 | type: com.google.sensor.prox_voice_call(131092) | perm: n/a | flags: 0x00000003
+	on-change | minRate=1.00Hz | minDelay=0us | FIFO (max,reserved) = (100, 100) events | wakeUp | 
+0x5f636779) Corrected Gyroscope Sensor | AOSP            | ver: 1 | type: android.sensor.gyroscope(4) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f676172) Game Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.game_rotation_vector(15) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f676273) Gyroscope Bias (debug)    | AOSP            | ver: 1 | type: android.sensor.accelerometer(1) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f67656f) GeoMag Rotation Vector Sensor | AOSP            | ver: 3 | type: android.sensor.geomagnetic_rotation_vector(20) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f677276) Gravity Sensor            | AOSP            | ver: 3 | type: android.sensor.gravity(9) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f6c696e) Linear Acceleration Sensor | AOSP            | ver: 3 | type: android.sensor.linear_acceleration(10) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f726f76) Rotation Vector Sensor    | AOSP            | ver: 3 | type: android.sensor.rotation_vector(11) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+0x5f797072) Orientation Sensor        | AOSP            | ver: 1 | type: android.sensor.orientation(3) | perm: n/a | flags: 0x00000000
+	continuous | maxDelay=0us | maxRate=400.00Hz | no batching | non-wakeUp | 
+Fusion States:
+9-axis fusion disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+game fusion(no mag) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+geomag fusion (no gyro) disabled (0 clients), gyro-rate= 200.00Hz, q=< 0, 0, 0, 0 > (0), b=< 0, 0, 0 >
+Recent Sensor events:
+Auto Brightness 1: last 10 events
+	 1 (ts=212341.405295819, wall=21:36:55.635) 54.11, 54.11, -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=212341.719112304, wall=21:36:55.945) 62.54, 66.44, 46.45, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=212341.923331002, wall=21:36:56.149) 73.52, 97.90, 46.67, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=212342.028986028, wall=21:36:56.255) 84.93, 123.11, 46.89, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=212366.457703008, wall=21:37:20.725) 26.76, 26.76, -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=212366.478356003, wall=21:37:20.725) 36.75, 26.76, 46.73, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=212366.642852826, wall=21:37:20.868) 42.73, 21.91, 46.73, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=212367.652663999, wall=21:37:21.878) 46.18, 29.74, 46.03, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=212368.404276031, wall=21:37:22.633) 12.19, 12.19, -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=212368.536677881, wall=21:37:22.762) 51.62, 12.97, 51.62, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Auto Brightness 0: last 10 events
+	 1 (ts=213074.759448451, wall=21:49:08.985) 88.12, 88.47, 16.78, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=213075.770872355, wall=21:49:09.997) 87.93, 88.17, 16.77, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=213076.786673342, wall=21:49:11.013) 87.65, 87.60, 16.70, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=213077.794296725, wall=21:49:12.020) 88.19, 88.00, 16.76, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=213078.797878937, wall=21:49:13.024) 87.62, 87.52, 16.69, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=213079.805121773, wall=21:49:14.031) 87.08, 87.25, 16.71, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=213080.809056510, wall=21:49:15.036) 87.50, 87.52, 16.76, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=213081.816589555, wall=21:49:16.042) 87.62, 87.65, 16.75, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=213082.819349552, wall=21:49:17.046) 87.49, 88.13, 16.71, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=213083.831547857, wall=21:49:18.057) 88.12, 88.10, 16.70, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Proximity Gated Single Tap Gesture (wake-up): last 10 events
+	 1 (ts=111706.697044678, wall=17:39:40.926) 8025.00, 21098.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=112034.873970008, wall=17:45:09.114) 4948.00, 11770.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=113010.341603905, wall=18:01:24.571) 8753.00, 6730.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=113387.221210109, wall=18:07:41.453) 7620.00, 11355.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=113621.574000009, wall=18:11:35.806) 5515.00, 20703.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=113742.893560538, wall=18:13:37.127) 6555.00, 18560.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=115091.808553309, wall=18:36:06.044) 1138.00, 14915.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=115225.420460157, wall=18:38:19.652) 3650.00, 8073.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=115451.047364548, wall=18:42:05.509) 9103.00, 13913.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=115617.759504363, wall=18:44:51.993) 9370.00, 22430.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Binned Brightness 1 (wake-up): last 10 events
+	 1 (ts=209715.428310060, wall=20:53:09.872) 2.00, 75.80, 3.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=209721.360585398, wall=20:53:15.809) 3.00, 341.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=212236.867316432, wall=21:35:11.095) 3.00, 223.49, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=212246.080866442, wall=21:35:20.308) 3.00, 164.86, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=212269.836756468, wall=21:35:44.063) 2.00, 80.47, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=212294.796147225, wall=21:36:09.027) 2.00, 16.06, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=212301.906940020, wall=21:36:16.134) 2.00, 89.46, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=212342.018160403, wall=21:36:56.248) 3.00, 149.27, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=212368.002931838, wall=21:37:22.229) 2.00, 27.65, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=212368.849044261, wall=21:37:23.080) 2.00, 23.48, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Binned Brightness 0 (wake-up): last 10 events
+	 1 (ts=212243.217836127, wall=21:35:17.449) 2.00, 9.16, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=212267.880475477, wall=21:35:42.107) 1.00, 1.36, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=212287.694247868, wall=21:36:01.925) 1.00, 3.98, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=212296.056492539, wall=21:36:10.283) 1.00, 0.58, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=212341.275814283, wall=21:36:55.507) 1.00, 1.55, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=212366.297002227, wall=21:37:20.524) 1.00, 1.61, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=212368.382060120, wall=21:37:22.617) 1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=212373.795578224, wall=21:37:28.033) 2.00, 87.17, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=212377.073385260, wall=21:37:31.302) 3.00, 243.23, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=212406.351313391, wall=21:38:00.584) 3.00, 399.48, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Virtual Color: last 10 events
+	 1 (ts=201797.060831340, wall=18:41:11.290) 3167.43, 14.62, 13.99, 3.06, 84.00, 60.00, 20.00, 7.00, 85.00, 77777.00, 30001.00, 7170.00, 120121.00, 691000.00, 0.00, 2401.00, 
+	 2 (ts=201806.134284287, wall=18:41:20.363) 3318.34, 10.15, 10.07, 4.29, 293.00, 202.00, 80.00, 37.00, 316.00, 77777.00, 160001.00, 1704.00, 120121.00, 690000.00, 0.00, 2401.00, 
+	 3 (ts=201822.643370832, wall=18:41:36.875) 3165.65, 8.31, 8.04, 1.64, 242.00, 182.00, 64.00, 28.00, 262.00, 77777.00, 160001.00, 5870.00, 120121.00, 690000.00, 0.00, 2401.00, 
+	 4 (ts=202178.150620508, wall=18:47:32.379) 3317.02, 12.45, 12.38, 5.07, 351.00, 242.00, 97.00, 43.00, 397.00, 77777.00, 160001.00, 5870.00, 120121.00, 690000.00, 0.00, 2401.00, 
+	 5 (ts=202639.201593991, wall=18:55:13.430) -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+	 6 (ts=202734.035388860, wall=18:56:48.264) -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+	 7 (ts=204165.984095903, wall=19:20:40.214) -1.00, 0.00, 0.00, 0.00, 0.00, 2.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+	 8 (ts=204606.758049942, wall=19:28:00.988) -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+	 9 (ts=204631.976353269, wall=19:28:26.214) -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+	10 (ts=204961.745984381, wall=19:33:55.981) -1.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 77777.00, 500005.00, 3004.00, 120001.00, 0.00, 0.00, 2400.00, 
+Inner Touch Gesture Sensor (wake-up): last 10 events
+	 1 (ts=180541.660432126, wall=12:46:55.889) 16400.00, 13490.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 2 (ts=181958.514138193, wall=13:10:32.749) 10070.00, 4630.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 3 (ts=184701.385048837, wall=13:56:15.617) 17420.00, 14000.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 4 (ts=184751.058745969, wall=13:57:05.286) 18480.00, 11630.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 5 (ts=184786.108456204, wall=13:57:40.340) 11970.00, 14880.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 6 (ts=186063.176322906, wall=14:18:57.614) 10130.00, 5510.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 7 (ts=186073.015019384, wall=14:19:07.244) 14850.00, 15660.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 8 (ts=187885.307727652, wall=14:49:19.537) 15570.00, 9970.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	 9 (ts=202639.129106335, wall=18:55:13.359) 6150.00, 20620.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+	10 (ts=206737.287846417, wall=20:03:31.665) 14610.00, 14720.00, 2.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00, 
+Hinge Angle (wake-up): last 10 events
+	 1 (ts=212405.079793441, wall=21:37:59.356) 135.00, 
+	 2 (ts=212405.099697605, wall=21:37:59.356) 140.00, 
+	 3 (ts=212405.119603389, wall=21:37:59.398) 145.00, 
+	 4 (ts=212405.159431384, wall=21:37:59.438) 150.00, 
+	 5 (ts=212405.179335549, wall=21:37:59.438) 155.00, 
+	 6 (ts=212405.199222895, wall=21:37:59.480) 160.00, 
+	 7 (ts=212405.219127059, wall=21:37:59.481) 165.00, 
+	 8 (ts=212405.258936662, wall=21:37:59.518) 170.00, 
+	 9 (ts=212405.298749142, wall=21:37:59.558) 175.00, 
+	10 (ts=212908.488202002, wall=21:46:22.900) 180.00, 
+ICM45631 Accelerometer-Uncalibrated: last 10 events
+	 1 (ts=209033.861839775, wall=20:41:48.088) -0.59, 7.47, 6.36, 0.02, 0.00, 0.01, 
+	 2 (ts=209033.871805817, wall=20:41:48.098) -0.36, 7.24, 6.04, 0.02, 0.00, 0.01, 
+	 3 (ts=209033.881773057, wall=20:41:48.108) -0.27, 7.43, 6.41, 0.02, 0.00, 0.01, 
+	 4 (ts=209033.891720531, wall=20:41:48.117) -0.21, 7.54, 6.65, 0.02, 0.00, 0.01, 
+	 5 (ts=209033.901721807, wall=20:41:48.128) -0.09, 7.39, 6.22, 0.02, 0.00, 0.01, 
+	 6 (ts=209033.911655088, wall=20:41:48.138) -0.17, 7.37, 6.07, 0.02, 0.00, 0.01, 
+	 7 (ts=209033.921653760, wall=20:41:48.147) -0.15, 7.35, 5.91, 0.02, 0.00, 0.01, 
+	 8 (ts=209033.931599229, wall=20:41:48.157) -0.11, 7.39, 5.83, 0.02, 0.00, 0.01, 
+	 9 (ts=209033.941565088, wall=20:41:48.167) -0.08, 7.54, 5.79, 0.02, 0.00, 0.01, 
+	10 (ts=209033.951532484, wall=20:41:48.177) -0.25, 7.79, 4.53, 0.02, 0.00, 0.01, 
+Lift to Wake Sensor (wake-up): last 10 events
+	 1 (ts=206667.022912429, wall=20:02:21.263) 1.00, 
+	 2 (ts=206677.137885573, wall=20:02:31.365) 1.00, 
+	 3 (ts=206680.755703427, wall=20:02:34.986) 1.00, 
+	 4 (ts=206685.448558838, wall=20:02:39.677) 1.00, 
+	 5 (ts=212176.008509698, wall=21:34:10.461) 1.00, 
+	 6 (ts=212381.349943910, wall=21:37:35.754) 1.00, 
+	 7 (ts=212908.654560058, wall=21:46:22.899) 1.00, 
+	 8 (ts=212909.002858135, wall=21:46:23.253) 1.00, 
+	 9 (ts=212910.200909816, wall=21:46:24.431) 1.00, 
+	10 (ts=212910.931529694, wall=21:46:25.160) 1.00, 
+Tilt Sensor (wake-up): last 10 events
+	 1 (ts=201707.925556320, wall=18:39:42.154) 1.00, 
+	 2 (ts=201897.633383605, wall=18:42:51.864) 1.00, 
+	 3 (ts=202227.853261896, wall=18:48:22.083) 1.00, 
+	 4 (ts=204634.783031188, wall=19:28:29.020) 1.00, 
+	 5 (ts=206161.838441903, wall=19:53:56.312) 1.00, 
+	 6 (ts=206509.172213733, wall=19:59:43.655) 1.00, 
+	 7 (ts=209029.606158438, wall=20:41:43.835) 1.00, 
+	 8 (ts=209770.098777712, wall=20:54:04.424) 1.00, 
+	 9 (ts=212177.538146340, wall=21:34:11.766) 1.00, 
+	10 (ts=212909.756143847, wall=21:46:23.985) 1.00, 
+Step Counter: last 50 events
+	 1 (ts=187126.995833548, wall=14:36:47.248) 15403, 
+	 2 (ts=187127.733481959, wall=14:36:47.248) 15404, 
+	 3 (ts=187128.192020083, wall=14:36:47.248) 15405, 
+	 4 (ts=187823.390571658, wall=14:48:47.248) 15406, 
+	 5 (ts=187823.849094861, wall=14:48:47.248) 15407, 
+	 6 (ts=187824.447219446, wall=14:48:47.248) 15408, 
+	 7 (ts=187861.630640716, wall=14:49:47.248) 15409, 
+	 8 (ts=187862.109139936, wall=14:49:47.248) 15410, 
+	 9 (ts=187862.567701291, wall=14:49:47.248) 15411, 
+	10 (ts=187863.066136761, wall=14:49:47.248) 15412, 
+	11 (ts=187863.544632283, wall=14:49:47.248) 15413, 
+	12 (ts=187864.003194993, wall=14:49:47.248) 15414, 
+	13 (ts=187864.501630593, wall=14:49:47.248) 15415, 
+	14 (ts=187864.960184188, wall=14:49:47.248) 15416, 
+	15 (ts=187865.199439345, wall=14:49:47.251) 15417, 
+	16 (ts=187865.817498096, wall=14:49:47.251) 15418, 
+	17 (ts=187866.116558332, wall=14:49:47.251) 15419, 
+	18 (ts=187866.654865000, wall=14:49:47.251) 15420, 
+	19 (ts=187867.213113621, wall=14:49:47.251) 15421, 
+	20 (ts=187867.631798310, wall=14:49:47.251) 15422, 
+	21 (ts=187868.150168832, wall=14:49:47.251) 15423, 
+	22 (ts=187868.628664952, wall=14:49:47.251) 15424, 
+	23 (ts=187869.147035632, wall=14:49:47.251) 15425, 
+	24 (ts=187869.804967873, wall=14:49:47.251) 15426, 
+	25 (ts=187870.522710999, wall=14:49:47.251) 15427, 
+	26 (ts=187871.260391365, wall=14:49:47.251) 15428, 
+	27 (ts=187871.260391365, wall=15:08:49.205) 15428, 
+	28 (ts=201709.948861816, wall=18:39:49.203) 15429, 
+	29 (ts=201710.526940800, wall=18:39:49.203) 15430, 
+	30 (ts=201711.045224342, wall=18:39:49.203) 15431, 
+	31 (ts=201711.623289603, wall=18:39:49.203) 15432, 
+	32 (ts=201712.221306009, wall=18:39:49.203) 15433, 
+	33 (ts=201712.739603562, wall=18:39:49.203) 15434, 
+	34 (ts=201713.377473354, wall=18:39:49.203) 15435, 
+	35 (ts=201713.835951089, wall=18:39:49.203) 15436, 
+	36 (ts=201714.513720595, wall=18:40:49.203) 15437, 
+	37 (ts=201715.051920647, wall=18:40:49.203) 15438, 
+	38 (ts=201715.689809371, wall=18:40:49.203) 15439, 
+	39 (ts=201718.061968513, wall=18:40:49.203) 15440, 
+	40 (ts=201820.604701612, wall=18:41:49.203) 15441, 
+	41 (ts=201821.083132576, wall=18:41:49.203) 15442, 
+	42 (ts=201821.521720754, wall=18:41:49.203) 15443, 
+	43 (ts=206662.373385248, wall=20:02:49.202) 15444, 
+	44 (ts=206663.350092387, wall=20:02:49.202) 15446, 
+	45 (ts=206664.665656794, wall=20:02:49.202) 15448, 
+	46 (ts=206665.682229533, wall=20:02:49.202) 15450, 
+	47 (ts=206666.937976491, wall=20:02:49.202) 15452, 
+	48 (ts=206667.805065844, wall=20:02:49.204) 15454, 
+	49 (ts=206668.064196392, wall=20:02:49.204) 15455, 
+	50 (ts=206669.100685225, wall=20:02:49.204) 15456, 
+Step Detector: last 10 events
+	 1 (ts=99620.222684907, wall=14:18:15.248) 1.00, 
+	 2 (ts=99621.997085527, wall=14:18:17.933) 1.00, 
+	 3 (ts=99622.689953573, wall=14:18:17.938) 1.00, 
+	 4 (ts=108174.025729095, wall=16:40:48.452) 1.00, 
+	 5 (ts=108177.873297076, wall=16:40:53.236) 1.00, 
+	 6 (ts=108178.551104943, wall=16:40:53.256) 1.00, 
+	 7 (ts=108179.228913435, wall=16:40:53.875) 1.00, 
+	 8 (ts=109855.184447396, wall=17:08:50.368) 1.00, 
+	 9 (ts=109855.583149062, wall=17:08:50.373) 1.00, 
+	10 (ts=109856.300813413, wall=17:08:50.867) 1.00, 
+Significant Motion (wake-up): last 50 events
+	 1 (ts=103970.098964419, wall=15:30:44.332) 1.00, 
+	 2 (ts=104363.058997558, wall=15:37:17.292) 1.00, 
+	 3 (ts=104606.700473966, wall=15:41:20.934) 1.00, 
+	 4 (ts=104677.823222238, wall=15:42:32.058) 1.00, 
+	 5 (ts=104994.007833630, wall=15:47:48.469) 1.00, 
+	 6 (ts=105366.128885521, wall=15:54:00.356) 1.00, 
+	 7 (ts=105693.011634489, wall=15:59:27.242) 1.00, 
+	 8 (ts=106009.178357132, wall=16:04:43.410) 1.00, 
+	 9 (ts=106604.356383312, wall=16:14:38.589) 1.00, 
+	10 (ts=106948.461675384, wall=16:20:22.893) 1.00, 
+	11 (ts=107157.952561156, wall=16:23:52.187) 1.00, 
+	12 (ts=107932.448436158, wall=16:36:46.876) 1.00, 
+	13 (ts=108156.892622687, wall=16:40:31.126) 1.00, 
+	14 (ts=108573.412098959, wall=16:47:27.648) 1.00, 
+	15 (ts=108609.099777665, wall=16:48:03.331) 1.00, 
+	16 (ts=108922.078587817, wall=16:53:16.311) 1.00, 
+	17 (ts=108993.660353710, wall=16:54:28.100) 1.00, 
+	18 (ts=109581.997017716, wall=17:04:16.229) 1.00, 
+	19 (ts=109814.804431905, wall=17:08:09.032) 1.00, 
+	20 (ts=110099.296087525, wall=17:12:53.528) 1.00, 
+	21 (ts=110415.615639243, wall=17:18:09.844) 1.00, 
+	22 (ts=110679.163475683, wall=17:22:33.397) 1.00, 
+	23 (ts=110872.479083507, wall=17:25:46.919) 1.00, 
+	24 (ts=111271.444058585, wall=17:32:25.879) 1.00, 
+	25 (ts=111597.071470124, wall=17:37:51.503) 1.00, 
+	26 (ts=111992.009629537, wall=17:44:26.441) 1.00, 
+	27 (ts=112471.107359194, wall=17:52:25.338) 1.00, 
+	28 (ts=112769.867024908, wall=17:57:24.099) 1.00, 
+	29 (ts=113086.015198594, wall=18:02:40.245) 1.00, 
+	30 (ts=114058.127349880, wall=18:18:52.354) 1.00, 
+	31 (ts=114071.050747992, wall=18:19:05.282) 1.00, 
+	32 (ts=114083.984078863, wall=18:19:18.212) 1.00, 
+	33 (ts=114184.399140230, wall=18:20:58.630) 1.00, 
+	34 (ts=115512.261704893, wall=18:43:06.489) 1.00, 
+	35 (ts=115660.304563886, wall=18:45:34.536) 1.00, 
+	36 (ts=116059.243022305, wall=18:52:13.472) 1.00, 
+	37 (ts=120245.683124377, wall=20:01:59.915) 1.00, 
+	38 (ts=124465.989442648, wall=21:12:20.221) 1.00, 
+	39 (ts=135546.262086861, wall=00:17:00.491) 1.00, 
+	40 (ts=152302.010125684, wall=04:56:16.354) 1.00, 
+	41 (ts=153683.602191111, wall=05:19:17.837) 1.00, 
+	42 (ts=155804.666445203, wall=05:54:38.894) 1.00, 
+	43 (ts=180683.112958594, wall=12:49:17.340) 1.00, 
+	44 (ts=187869.530446700, wall=14:49:03.759) 1.00, 
+	45 (ts=201716.818639137, wall=18:39:51.049) 1.00, 
+	46 (ts=201792.662545061, wall=18:41:06.890) 1.00, 
+	47 (ts=202211.005506819, wall=18:48:05.234) 1.00, 
+	48 (ts=206661.101632637, wall=20:02:15.403) 1.00, 
+	49 (ts=206670.933453071, wall=20:02:25.166) 1.00, 
+	50 (ts=206687.078072491, wall=20:02:41.304) 1.00, 
+ICM45631 Gyroscope-Uncalibrated: last 10 events
+	 1 (ts=212912.043518353, wall=21:46:26.269) -0.13, 0.06, -0.30, 0.00, -0.00, -0.00, 
+	 2 (ts=212912.053471322, wall=21:46:26.279) -0.13, 0.09, -0.32, 0.00, -0.00, -0.00, 
+	 3 (ts=212912.063452259, wall=21:46:26.289) -0.12, 0.16, -0.32, 0.00, -0.00, -0.00, 
+	 4 (ts=212912.073419213, wall=21:46:26.299) -0.10, 0.23, -0.31, 0.00, -0.00, -0.00, 
+	 5 (ts=212912.083385931, wall=21:46:26.309) -0.09, 0.25, -0.28, 0.00, -0.00, -0.00, 
+	 6 (ts=212912.093354082, wall=21:46:26.319) -0.08, 0.26, -0.25, 0.00, -0.00, -0.00, 
+	 7 (ts=212912.103319474, wall=21:46:26.329) -0.02, 0.26, -0.19, 0.00, -0.00, -0.00, 
+	 8 (ts=212912.113286192, wall=21:46:26.339) 0.16, 0.30, -0.16, 0.00, -0.00, -0.00, 
+	 9 (ts=212912.123253536, wall=21:46:26.350) 0.28, 0.29, -0.12, 0.00, -0.00, -0.00, 
+	10 (ts=212912.133221453, wall=21:46:26.359) 0.33, 0.27, -0.06, 0.00, -0.00, -0.00, 
+Game Rotation Vector Sensor: last 10 events
+	 1 (ts=183587.636441513, wall=13:37:41.863) 0.41, -0.40, -0.58, 0.58, 
+	 2 (ts=183587.656394820, wall=13:37:41.883) 0.41, -0.40, -0.58, 0.58, 
+	 3 (ts=183587.676331279, wall=13:37:41.903) 0.41, -0.40, -0.58, 0.58, 
+	 4 (ts=183587.696267633, wall=13:37:41.923) 0.41, -0.40, -0.58, 0.58, 
+	 5 (ts=183587.716228441, wall=13:37:41.943) 0.40, -0.40, -0.58, 0.58, 
+	 6 (ts=183587.736139821, wall=13:37:41.962) 0.40, -0.40, -0.58, 0.58, 
+	 7 (ts=183587.756076566, wall=13:37:41.982) 0.40, -0.40, -0.58, 0.58, 
+	 8 (ts=183587.776012477, wall=13:37:42.003) 0.40, -0.40, -0.58, 0.58, 
+	 9 (ts=183587.795942789, wall=13:37:42.022) 0.40, -0.40, -0.58, 0.58, 
+	10 (ts=183587.835821617, wall=13:37:42.062) 0.41, -0.40, -0.58, 0.58, 
+Flip-side Magnetometer-Uncalibrated: last 10 events
+	 1 (ts=212911.402632121, wall=21:46:25.816) -152.63, 43.60, 248.39, -169.36, 88.27, 257.10, 
+	 2 (ts=212911.422632018, wall=21:46:25.816) -152.44, 43.31, 248.04, -169.36, 88.27, 257.10, 
+	 3 (ts=212911.442631184, wall=21:46:25.816) -152.95, 43.40, 248.48, -169.36, 88.27, 257.10, 
+	 4 (ts=212911.462616289, wall=21:46:25.816) -153.00, 43.36, 248.71, -169.36, 88.27, 257.10, 
+	 5 (ts=212911.482619831, wall=21:46:25.816) -153.15, 43.05, 248.50, -169.36, 88.27, 257.10, 
+	 6 (ts=212911.502631420, wall=21:46:25.816) -153.27, 42.98, 248.25, -169.36, 88.27, 257.10, 
+	 7 (ts=212911.522632175, wall=21:46:25.816) -153.70, 42.97, 247.99, -169.36, 88.27, 257.10, 
+	 8 (ts=212911.542632045, wall=21:46:25.816) -153.90, 42.64, 247.62, -169.36, 88.27, 257.10, 
+	 9 (ts=212911.562632358, wall=21:46:25.816) -154.15, 42.33, 247.59, -169.36, 88.27, 257.10, 
+	10 (ts=212911.582631733, wall=21:46:25.816) -153.96, 42.54, 247.50, -169.36, 88.27, 257.10, 
+Rotation Vector Sensor: last 10 events
+	 1 (ts=212938.371176028, wall=21:46:52.598) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 2 (ts=212938.391101316, wall=21:46:52.618) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 3 (ts=212938.411034623, wall=21:46:52.637) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 4 (ts=212938.430969310, wall=21:46:52.658) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 5 (ts=212938.450899754, wall=21:46:52.677) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 6 (ts=212938.470833998, wall=21:46:52.697) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 7 (ts=212938.490772306, wall=21:46:52.718) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 8 (ts=212938.510705900, wall=21:46:52.738) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	 9 (ts=212938.530641161, wall=21:46:52.757) 0.02, -0.07, -0.89, 0.44, 1.57, 
+	10 (ts=212938.550558009, wall=21:46:52.778) 0.02, -0.07, -0.89, 0.44, 1.57, 
+Linear Acceleration Sensor: last 10 events
+	 1 (ts=213083.638318326, wall=21:49:17.865) 0.00, -0.04, -0.18, 
+	 2 (ts=213083.658253144, wall=21:49:17.885) 0.05, 0.04, 0.06, 
+	 3 (ts=213083.678189446, wall=21:49:17.905) 0.01, -0.03, -0.05, 
+	 4 (ts=213083.698124185, wall=21:49:17.924) 0.03, -0.05, 0.01, 
+	 5 (ts=213083.718045175, wall=21:49:17.944) 0.01, -0.02, -0.03, 
+	 6 (ts=213083.737995409, wall=21:49:17.964) -0.02, 0.04, -0.01, 
+	 7 (ts=213083.757930227, wall=21:49:17.984) -0.04, 0.02, -0.03, 
+	 8 (ts=213083.777865826, wall=21:49:18.004) -0.05, -0.00, 0.00, 
+	 9 (ts=213083.797801477, wall=21:49:18.024) -0.02, -0.02, -0.03, 
+	10 (ts=213083.817722726, wall=21:49:18.044) 0.03, 0.00, -0.01, 
+Gravity Sensor: last 10 events
+	 1 (ts=212227.690328114, wall=21:35:01.917) 0.13, 8.47, 4.95, 
+	 2 (ts=212227.809937229, wall=21:35:02.037) -0.10, 8.53, 4.84, 
+	 3 (ts=212227.929540459, wall=21:35:02.156) -0.41, 8.60, 4.70, 
+	 4 (ts=212228.049136916, wall=21:35:02.275) -0.50, 8.57, 4.74, 
+	 5 (ts=212228.168746292, wall=21:35:02.395) -0.63, 8.55, 4.76, 
+	 6 (ts=212228.288380485, wall=21:35:02.515) -0.67, 8.51, 4.84, 
+	 7 (ts=212228.407931735, wall=21:35:02.634) -0.64, 8.42, 5.00, 
+	 8 (ts=212228.527555250, wall=21:35:02.754) -0.76, 8.44, 4.94, 
+	 9 (ts=212228.647158089, wall=21:35:02.874) -0.82, 8.46, 4.90, 
+	10 (ts=212228.766754808, wall=21:35:02.993) -0.82, 8.45, 4.91, 
+Virtual Proximity (wake-up): last 30 events
+	 1 (ts=180675.568167896, wall=14:36:01.248) 5.00, 0.00, 0.00, 
+	 2 (ts=180675.568050596, wall=14:46:14.179) 5.00, 0.00, 0.00, 
+	 3 (ts=180675.568050596, wall=14:46:52.110) 5.00, 0.00, 0.00, 
+	 4 (ts=180675.568050596, wall=14:46:55.469) 5.00, 0.00, 0.00, 
+	 5 (ts=180675.568050596, wall=14:46:55.912) 5.00, 0.00, 0.00, 
+	 6 (ts=180675.568050596, wall=14:46:58.541) 5.00, 0.00, 0.00, 
+	 7 (ts=180675.568050596, wall=14:47:48.546) 5.00, 0.00, 0.00, 
+	 8 (ts=180675.567992577, wall=14:48:18.546) 5.00, 0.00, 0.00, 
+	 9 (ts=180675.567992577, wall=14:49:18.496) 5.00, 0.00, 0.00, 
+	10 (ts=180675.567992577, wall=14:49:18.949) 5.00, 0.00, 0.00, 
+	11 (ts=180675.567992577, wall=14:49:22.260) 5.00, 0.00, 0.00, 
+	12 (ts=180675.566708756, wall=16:40:41.310) 5.00, 0.00, 0.00, 
+	13 (ts=180675.565307763, wall=18:39:43.452) 5.00, 0.00, 0.00, 
+	14 (ts=180675.564724361, wall=19:28:25.067) 5.00, 0.00, 0.00, 
+	15 (ts=180675.564724361, wall=19:28:26.214) 5.00, 0.00, 0.00, 
+	16 (ts=180675.564374385, wall=20:00:19.984) 5.00, 0.00, 0.00, 
+	17 (ts=180675.564374385, wall=20:00:24.494) 5.00, 0.00, 0.00, 
+	18 (ts=180675.564374385, wall=20:01:28.495) 5.00, 0.00, 0.00, 
+	19 (ts=180675.563906466, wall=20:41:39.832) 5.00, 0.00, 0.00, 
+	20 (ts=180675.563906466, wall=20:41:42.030) 5.00, 0.00, 0.00, 
+	21 (ts=212176.593987693, wall=21:34:10.824) 5.00, 0.00, 0.00, 
+	22 (ts=212244.206622925, wall=21:35:18.436) 5.00, 0.00, 0.00, 
+	23 (ts=212268.767001025, wall=21:35:42.997) 5.00, 0.00, 0.00, 
+	24 (ts=212289.041920397, wall=21:36:03.270) 5.00, 0.00, 0.00, 
+	25 (ts=212296.444902826, wall=21:36:10.673) 5.00, 0.00, 0.00, 
+	26 (ts=212296.728599233, wall=21:36:10.957) 5.00, 0.00, 0.00, 
+	27 (ts=212343.728064571, wall=21:36:57.954) 5.00, 0.00, 0.00, 
+	28 (ts=212367.051554910, wall=21:37:21.281) 5.00, 0.00, 0.00, 
+	29 (ts=212381.532572661, wall=21:37:35.761) 5.00, 0.00, 0.00, 
+	30 (ts=212911.459836185, wall=21:46:25.693) 5.00, 0.00, 0.00, 
+TMD3743 Ambient Light: last 50 events
+	 1 (ts=212292.106939045, wall=21:36:06.334) 13.29, 0.00, 0.00, 
+	 2 (ts=212292.169514592, wall=21:36:06.397) 14.57, 0.00, 0.00, 
+	 3 (ts=212292.390712249, wall=21:36:06.618) 26.70, 0.00, 0.00, 
+	 4 (ts=212292.808003369, wall=21:36:07.035) 23.46, 0.00, 0.00, 
+	 5 (ts=212293.688489151, wall=21:36:07.917) 11.15, 0.00, 0.00, 
+	 6 (ts=212294.756749231, wall=21:36:08.984) 16.06, 0.00, 0.00, 
+	 7 (ts=212296.218034857, wall=21:36:10.454) 11.76, 0.00, 0.00, 
+	 8 (ts=212296.284687435, wall=21:36:10.513) 11.83, 0.00, 0.00, 
+	 9 (ts=212296.284687435, wall=21:36:10.513) 11.83, 0.00, 0.00, 
+	10 (ts=212296.472083999, wall=21:36:10.699) 14.60, 0.00, 0.00, 
+	11 (ts=212296.484597722, wall=21:36:10.712) 12.45, 0.00, 0.00, 
+	12 (ts=212297.365008061, wall=21:36:11.593) 15.40, 0.00, 0.00, 
+	13 (ts=212298.725550980, wall=21:36:12.953) 11.42, 0.00, 0.00, 
+	14 (ts=212299.693758924, wall=21:36:13.922) 22.26, 0.00, 0.00, 
+	15 (ts=212300.031842413, wall=21:36:14.260) 76.83, 0.00, 0.00, 
+	16 (ts=212300.328168117, wall=21:36:14.556) 70.16, 0.00, 0.00, 
+	17 (ts=212300.399102284, wall=21:36:14.627) 63.80, 0.00, 0.00, 
+	18 (ts=212300.482565227, wall=21:36:14.710) 58.98, 0.00, 0.00, 
+	19 (ts=212300.699537909, wall=21:36:14.928) 54.09, 0.00, 0.00, 
+	20 (ts=212301.121028587, wall=21:36:15.350) 58.86, 0.00, 0.00, 
+	21 (ts=212301.200318118, wall=21:36:15.428) 89.46, 0.00, 0.00, 
+	22 (ts=212341.203466678, wall=21:36:55.489) 52.22, 0.00, 0.00, 
+	23 (ts=212341.270128527, wall=21:36:55.504) 48.69, 0.00, 0.00, 
+	24 (ts=212341.403469855, wall=21:36:55.635) 54.11, 0.00, 0.00, 
+	25 (ts=212341.470138944, wall=21:36:55.697) 65.64, 0.00, 0.00, 
+	26 (ts=212341.536797642, wall=21:36:55.764) 77.41, 0.00, 0.00, 
+	27 (ts=212341.613010585, wall=21:36:55.840) 61.65, 0.00, 0.00, 
+	28 (ts=212341.675615507, wall=21:36:55.903) 67.44, 0.00, 0.00, 
+	29 (ts=212341.717309231, wall=21:36:55.944) 72.89, 0.00, 0.00, 
+	30 (ts=212341.754847356, wall=21:36:55.986) 81.45, 0.00, 0.00, 
+	31 (ts=212341.788234908, wall=21:36:56.015) 92.04, 0.00, 0.00, 
+	32 (ts=212341.813269751, wall=21:36:56.040) 109.67, 0.00, 0.00, 
+	33 (ts=212341.880010585, wall=21:36:56.109) 149.27, 0.00, 0.00, 
+	34 (ts=212366.256216992, wall=21:37:20.533) 57.07, 0.00, 0.00, 
+	35 (ts=212366.456220404, wall=21:37:20.736) 26.76, 0.00, 0.00, 
+	36 (ts=212366.522889623, wall=21:37:20.754) 20.23, 0.00, 0.00, 
+	37 (ts=212366.861777436, wall=21:37:21.090) 17.50, 0.00, 0.00, 
+	38 (ts=212367.333215509, wall=21:37:21.561) 21.36, 0.00, 0.00, 
+	39 (ts=212367.495934702, wall=21:37:21.724) 40.78, 0.00, 0.00, 
+	40 (ts=212367.767119260, wall=21:37:21.995) 37.09, 0.00, 0.00, 
+	41 (ts=212367.804693609, wall=21:37:22.033) 34.28, 0.00, 0.00, 
+	42 (ts=212367.846395797, wall=21:37:22.074) 30.76, 0.00, 0.00, 
+	43 (ts=212367.871457932, wall=21:37:22.099) 27.65, 0.00, 0.00, 
+	44 (ts=212368.334976240, wall=21:37:22.623) 12.19, 0.00, 0.00, 
+	45 (ts=212368.401646708, wall=21:37:22.633) 12.19, 0.00, 0.00, 
+	46 (ts=212368.534991318, wall=21:37:22.762) 12.97, 0.00, 0.00, 
+	47 (ts=212368.757278454, wall=21:37:22.985) 16.41, 0.00, 0.00, 
+	48 (ts=212368.794818609, wall=21:37:23.023) 18.34, 0.00, 0.00, 
+	49 (ts=212368.807325120, wall=21:37:23.035) 20.18, 0.00, 0.00, 
+	50 (ts=212368.832359209, wall=21:37:23.061) 23.48, 0.00, 0.00, 
+Virtual Ambient Light: last 50 events
+	 1 (ts=212956.889867259, wall=21:47:11.119) 53.15, 0.00, 0.00, 
+	 2 (ts=212957.835344067, wall=21:47:12.066) 67.92, 0.00, 0.00, 
+	 3 (ts=212959.551054737, wall=21:47:13.780) 8.41, 0.00, 0.00, 
+	 4 (ts=212959.576043671, wall=21:47:13.804) 11.54, 0.00, 0.00, 
+	 5 (ts=212959.588534114, wall=21:47:13.816) 16.98, 0.00, 0.00, 
+	 6 (ts=212959.601032993, wall=21:47:13.829) 25.05, 0.00, 0.00, 
+	 7 (ts=212959.613523619, wall=21:47:13.843) 33.64, 0.00, 0.00, 
+	 8 (ts=212959.634348515, wall=21:47:13.865) 41.99, 0.00, 0.00, 
+	 9 (ts=212959.646841224, wall=21:47:13.874) 50.72, 0.00, 0.00, 
+	10 (ts=212959.659341484, wall=21:47:13.888) 58.93, 0.00, 0.00, 
+	11 (ts=212959.734304792, wall=21:47:13.963) 88.17, 0.00, 0.00, 
+	12 (ts=212968.528605988, wall=21:47:22.757) 32.29, 0.00, 0.00, 
+	13 (ts=212969.103133651, wall=21:47:23.332) 39.90, 0.00, 0.00, 
+	14 (ts=212969.123957662, wall=21:47:23.352) 47.60, 0.00, 0.00, 
+	15 (ts=212969.669331574, wall=21:47:23.898) 89.65, 0.00, 0.00, 
+	16 (ts=213021.117865689, wall=21:48:15.346) 27.18, 0.00, 0.00, 
+	17 (ts=213021.879942485, wall=21:48:16.108) 29.57, 0.00, 0.00, 
+	18 (ts=213022.083942822, wall=21:48:16.312) 26.82, 0.00, 0.00, 
+	19 (ts=213022.121414697, wall=21:48:16.349) 21.56, 0.00, 0.00, 
+	20 (ts=213022.225500947, wall=21:48:16.454) 17.53, 0.00, 0.00, 
+	21 (ts=213022.246310374, wall=21:48:16.475) 20.15, 0.00, 0.00, 
+	22 (ts=213022.375369098, wall=21:48:16.605) 18.41, 0.00, 0.00, 
+	23 (ts=213022.396185217, wall=21:48:16.625) 14.63, 0.00, 0.00, 
+	24 (ts=213022.408676571, wall=21:48:16.637) 11.12, 0.00, 0.00, 
+	25 (ts=213023.091510710, wall=21:48:17.323) 14.21, 0.00, 0.00, 
+	26 (ts=213023.720342714, wall=21:48:17.949) 46.14, 0.00, 0.00, 
+	27 (ts=213023.882706100, wall=21:48:18.111) 42.59, 0.00, 0.00, 
+	28 (ts=213023.907702688, wall=21:48:18.136) 37.83, 0.00, 0.00, 
+	29 (ts=213023.932666881, wall=21:48:18.161) 33.11, 0.00, 0.00, 
+	30 (ts=213023.957663755, wall=21:48:18.189) 29.24, 0.00, 0.00, 
+	31 (ts=213023.978486724, wall=21:48:18.207) 26.47, 0.00, 0.00, 
+	32 (ts=213023.990971463, wall=21:48:18.220) 23.77, 0.00, 0.00, 
+	33 (ts=213024.003465813, wall=21:48:18.232) 20.98, 0.00, 0.00, 
+	34 (ts=213024.190803442, wall=21:48:18.421) 23.99, 0.00, 0.00, 
+	35 (ts=213024.236588625, wall=21:48:18.465) 37.01, 0.00, 0.00, 
+	36 (ts=213024.407282062, wall=21:48:18.636) 31.52, 0.00, 0.00, 
+	37 (ts=213024.507192269, wall=21:48:18.736) 7.50, 0.00, 0.00, 
+	38 (ts=213024.644588623, wall=21:48:18.873) 10.00, 0.00, 0.00, 
+	39 (ts=213024.657062244, wall=21:48:18.886) 14.41, 0.00, 0.00, 
+	40 (ts=213024.669538181, wall=21:48:18.899) 19.31, 0.00, 0.00, 
+	41 (ts=213024.690348155, wall=21:48:18.922) 25.03, 0.00, 0.00, 
+	42 (ts=213024.702858623, wall=21:48:18.932) 30.72, 0.00, 0.00, 
+	43 (ts=213024.990130784, wall=21:48:19.219) 57.86, 0.00, 0.00, 
+	44 (ts=213025.677183048, wall=21:48:19.905) 88.98, 0.00, 0.00, 
+	45 (ts=213032.945514906, wall=21:48:27.174) 25.85, 0.00, 0.00, 
+	46 (ts=213033.815704695, wall=21:48:28.044) 0.54, 0.00, 0.00, 
+	47 (ts=213034.094619565, wall=21:48:28.322) 1.20, 0.00, 0.00, 
+	48 (ts=213035.505906410, wall=21:48:29.734) 5.47, 0.00, 0.00, 
+	49 (ts=213035.689099977, wall=21:48:29.920) 37.73, 0.00, 0.00, 
+	50 (ts=213036.188678310, wall=21:48:30.417) 88.66, 0.00, 0.00, 
+ICM45621 Gyroscope: last 6 events
+	 1 (ts=16368.794332749, wall=15:10:43.020) -0.76, -0.35, 0.42, 
+	 2 (ts=16368.814238166, wall=15:10:43.043) -1.00, -0.56, 0.28, 
+	 3 (ts=16398.036903901, wall=15:11:12.263) -0.09, 0.28, -0.63, 
+	 4 (ts=16398.056809786, wall=15:11:12.283) -0.00, 0.00, -0.52, 
+	 5 (ts=85483.987966465, wall=10:22:38.214) -0.46, -0.04, -0.07, 
+	 6 (ts=85484.007871152, wall=10:22:38.237) -0.38, 0.02, -0.02, 
+ICM45631 Gyroscope: last 10 events
+	 1 (ts=213083.648286113, wall=21:49:17.875) 0.00, 0.00, -0.00, 
+	 2 (ts=213083.668247154, wall=21:49:17.895) -0.01, -0.00, 0.00, 
+	 3 (ts=213083.688156633, wall=21:49:17.915) 0.00, -0.00, 0.00, 
+	 4 (ts=213083.708091659, wall=21:49:17.934) 0.00, 0.01, 0.00, 
+	 5 (ts=213083.728027623, wall=21:49:17.954) 0.00, 0.00, -0.00, 
+	 6 (ts=213083.747962362, wall=21:49:17.974) -0.00, -0.00, -0.00, 
+	 7 (ts=213083.767889315, wall=21:49:17.994) 0.00, -0.00, -0.00, 
+	 8 (ts=213083.787833899, wall=21:49:18.014) -0.00, 0.00, 0.00, 
+	 9 (ts=213083.807768404, wall=21:49:18.034) 0.00, 0.00, 0.00, 
+	10 (ts=213083.827704627, wall=21:49:18.054) -0.00, -0.00, 0.00, 
+Orientation Sensor: last 10 events
+	 1 (ts=138948.682594560, wall=01:13:42.909) 213.33, -71.88, -1.98, 
+	 2 (ts=138952.670067809, wall=01:13:46.898) 210.25, -69.04, -3.30, 
+	 3 (ts=138959.588357478, wall=01:13:53.815) 212.99, -69.84, -3.20, 
+	 4 (ts=138959.668100343, wall=01:13:53.894) 211.12, -68.86, -3.60, 
+	 5 (ts=138960.405776597, wall=01:13:54.632) 211.70, -71.03, -2.49, 
+	 6 (ts=138968.659852549, wall=01:14:02.886) 209.26, -67.14, -4.01, 
+	 7 (ts=138969.816235315, wall=01:14:04.042) 216.08, -73.68, -0.53, 
+	 8 (ts=139082.203409357, wall=01:15:56.430) 212.03, -71.54, -1.84, 
+	 9 (ts=139082.223346206, wall=01:15:56.451) 213.38, -73.01, -1.62, 
+	10 (ts=194627.411971574, wall=16:41:41.639) 224.41, -61.75, -5.77, 
+Flip-side Magnetometer: last 10 events
+	 1 (ts=213076.264441860, wall=21:49:10.490) -63.22, -44.52, -5.01, 
+	 2 (ts=213077.064442431, wall=21:49:11.291) -63.16, -44.46, -4.93, 
+	 3 (ts=213077.864435762, wall=21:49:12.090) -63.10, -44.32, -4.83, 
+	 4 (ts=213078.664424067, wall=21:49:12.891) -63.17, -44.43, -4.99, 
+	 5 (ts=213079.464436930, wall=21:49:13.690) -63.34, -44.73, -5.23, 
+	 6 (ts=213080.264424116, wall=21:49:14.491) -63.17, -44.52, -5.29, 
+	 7 (ts=213081.064440546, wall=21:49:15.291) -63.06, -44.48, -5.40, 
+	 8 (ts=213081.864424164, wall=21:49:16.091) -62.94, -44.53, -4.93, 
+	 9 (ts=213082.664440880, wall=21:49:16.890) -63.05, -44.38, -5.28, 
+	10 (ts=213083.464436243, wall=21:49:17.690) -63.03, -44.59, -5.10, 
+ICM45621 Accelerometer: last 50 events
+	 1 (ts=213075.906591573, wall=21:49:10.133) 0.04, 1.38, 9.71, 
+	 2 (ts=213076.065838587, wall=21:49:10.297) 0.05, 1.39, 9.71, 
+	 3 (ts=213076.225077753, wall=21:49:10.457) 0.05, 1.39, 9.71, 
+	 4 (ts=213076.384319281, wall=21:49:10.610) 0.05, 1.39, 9.71, 
+	 5 (ts=213076.543540071, wall=21:49:10.778) 0.05, 1.39, 9.71, 
+	 6 (ts=213076.702798428, wall=21:49:10.938) 0.05, 1.39, 9.71, 
+	 7 (ts=213076.862023603, wall=21:49:11.088) 0.04, 1.40, 9.72, 
+	 8 (ts=213077.021276403, wall=21:49:11.257) 0.05, 1.39, 9.71, 
+	 9 (ts=213077.180517223, wall=21:49:11.417) 0.04, 1.38, 9.71, 
+	10 (ts=213077.339741388, wall=21:49:11.566) 0.05, 1.39, 9.72, 
+	11 (ts=213077.498991891, wall=21:49:11.737) 0.06, 1.40, 9.71, 
+	12 (ts=213077.658224077, wall=21:49:11.898) 0.06, 1.39, 9.71, 
+	13 (ts=213077.817460033, wall=21:49:12.045) 0.05, 1.39, 9.71, 
+	14 (ts=213077.976722905, wall=21:49:12.217) 0.05, 1.38, 9.71, 
+	15 (ts=213078.135956107, wall=21:49:12.377) 0.05, 1.38, 9.71, 
+	16 (ts=213078.295193782, wall=21:49:12.521) 0.04, 1.39, 9.71, 
+	17 (ts=213078.454434968, wall=21:49:12.697) 0.04, 1.39, 9.71, 
+	18 (ts=213078.613664719, wall=21:49:12.857) 0.05, 1.39, 9.71, 
+	19 (ts=213078.772899666, wall=21:49:12.999) 0.04, 1.39, 9.71, 
+	20 (ts=213078.932152903, wall=21:49:13.178) 0.05, 1.39, 9.71, 
+	21 (ts=213079.091407563, wall=21:49:13.337) 0.05, 1.39, 9.71, 
+	22 (ts=213079.250634404, wall=21:49:13.478) 0.05, 1.39, 9.71, 
+	23 (ts=213079.409871339, wall=21:49:13.656) 0.05, 1.39, 9.71, 
+	24 (ts=213079.569112145, wall=21:49:13.819) 0.05, 1.39, 9.71, 
+	25 (ts=213079.728353622, wall=21:49:13.955) 0.05, 1.39, 9.71, 
+	26 (ts=213079.887591657, wall=21:49:14.134) 0.05, 1.39, 9.71, 
+	27 (ts=213080.046831305, wall=21:49:14.297) 0.05, 1.39, 9.70, 
+	28 (ts=213080.206056641, wall=21:49:14.432) 0.05, 1.39, 9.71, 
+	29 (ts=213080.365297665, wall=21:49:14.611) 0.05, 1.39, 9.71, 
+	30 (ts=213080.524534357, wall=21:49:14.777) 0.05, 1.39, 9.71, 
+	31 (ts=213080.683775495, wall=21:49:14.910) 0.05, 1.39, 9.71, 
+	32 (ts=213080.843029826, wall=21:49:15.089) 0.05, 1.39, 9.71, 
+	33 (ts=213081.002253809, wall=21:49:15.258) 0.05, 1.39, 9.71, 
+	34 (ts=213081.161494531, wall=21:49:15.388) 0.04, 1.40, 9.71, 
+	35 (ts=213081.320749180, wall=21:49:15.568) 0.04, 1.40, 9.71, 
+	36 (ts=213081.479984791, wall=21:49:15.737) 0.04, 1.40, 9.70, 
+	37 (ts=213081.639230571, wall=21:49:15.866) 0.05, 1.39, 9.71, 
+	38 (ts=213081.798468424, wall=21:49:16.044) 0.06, 1.39, 9.71, 
+	39 (ts=213081.957709275, wall=21:49:16.217) 0.06, 1.39, 9.71, 
+	40 (ts=213082.116949919, wall=21:49:16.343) 0.05, 1.40, 9.71, 
+	41 (ts=213082.276171124, wall=21:49:16.503) 0.05, 1.40, 9.71, 
+	42 (ts=213082.435445290, wall=21:49:16.662) 0.05, 1.41, 9.74, 
+	43 (ts=213082.594690490, wall=21:49:16.821) 0.05, 1.37, 9.72, 
+	44 (ts=213082.753907874, wall=21:49:16.983) 0.05, 1.36, 9.71, 
+	45 (ts=213082.913146584, wall=21:49:17.142) 0.05, 1.38, 9.71, 
+	46 (ts=213083.072388640, wall=21:49:17.299) 0.04, 1.37, 9.71, 
+	47 (ts=213083.231626883, wall=21:49:17.462) 0.05, 1.38, 9.71, 
+	48 (ts=213083.390867475, wall=21:49:17.617) 0.05, 1.37, 9.71, 
+	49 (ts=213083.550107597, wall=21:49:17.776) 0.07, 1.38, 9.72, 
+	50 (ts=213083.709327761, wall=21:49:17.937) 0.06, 1.36, 9.71, 
+ICM45631 Accelerometer: last 50 events
+	 1 (ts=213082.840904058, wall=21:49:17.068) 0.31, 1.33, 9.69, 
+	 2 (ts=213082.860838797, wall=21:49:17.087) 0.30, 1.35, 9.70, 
+	 3 (ts=213082.880758407, wall=21:49:17.108) 0.28, 1.35, 9.72, 
+	 4 (ts=213082.900710099, wall=21:49:17.128) 0.30, 1.35, 9.70, 
+	 5 (ts=213082.920644630, wall=21:49:17.148) 0.31, 1.36, 9.69, 
+	 6 (ts=213082.940580906, wall=21:49:17.168) 0.36, 1.34, 9.70, 
+	 7 (ts=213082.960515672, wall=21:49:17.188) 0.34, 1.34, 9.70, 
+	 8 (ts=213082.980477573, wall=21:49:17.207) 0.34, 1.34, 9.70, 
+	 9 (ts=213083.000387052, wall=21:49:17.227) 0.32, 1.34, 9.71, 
+	10 (ts=213083.020321609, wall=21:49:17.247) 0.29, 1.35, 9.68, 
+	11 (ts=213083.040257781, wall=21:49:17.267) 0.28, 1.35, 9.70, 
+	12 (ts=213083.060192286, wall=21:49:17.287) 0.28, 1.35, 9.69, 
+	13 (ts=213083.080128015, wall=21:49:17.307) 0.30, 1.36, 9.70, 
+	14 (ts=213083.100063692, wall=21:49:17.327) 0.33, 1.34, 9.69, 
+	15 (ts=213083.119998353, wall=21:49:17.347) 0.36, 1.32, 9.69, 
+	16 (ts=213083.139934343, wall=21:49:17.367) 0.36, 1.34, 9.70, 
+	17 (ts=213083.159869213, wall=21:49:17.387) 0.35, 1.35, 9.71, 
+	18 (ts=213083.179805463, wall=21:49:17.407) 0.32, 1.34, 9.70, 
+	19 (ts=213083.199740359, wall=21:49:17.427) 0.30, 1.35, 9.70, 
+	20 (ts=213083.219675177, wall=21:49:17.447) 0.30, 1.35, 9.70, 
+	21 (ts=213083.239611400, wall=21:49:17.466) 0.30, 1.36, 9.70, 
+	22 (ts=213083.259545906, wall=21:49:17.486) 0.31, 1.35, 9.69, 
+	23 (ts=213083.279481791, wall=21:49:17.507) 0.32, 1.35, 9.69, 
+	24 (ts=213083.299417624, wall=21:49:17.527) 0.34, 1.35, 9.72, 
+	25 (ts=213083.319375202, wall=21:49:17.546) 0.33, 1.35, 9.71, 
+	26 (ts=213083.339287650, wall=21:49:17.566) 0.34, 1.34, 9.67, 
+	27 (ts=213083.359222702, wall=21:49:17.586) 0.31, 1.33, 9.67, 
+	28 (ts=213083.379158822, wall=21:49:17.606) 0.30, 1.34, 9.69, 
+	29 (ts=213083.399094238, wall=21:49:17.626) 0.28, 1.35, 9.67, 
+	30 (ts=213083.419029524, wall=21:49:17.646) 0.27, 1.34, 9.67, 
+	31 (ts=213083.438961686, wall=21:49:17.667) 0.27, 1.38, 9.80, 
+	32 (ts=213083.458896191, wall=21:49:17.685) 0.31, 1.35, 9.66, 
+	33 (ts=213083.478835488, wall=21:49:17.705) 0.35, 1.42, 9.82, 
+	34 (ts=213083.498770332, wall=21:49:17.725) 0.36, 1.38, 9.61, 
+	35 (ts=213083.518689655, wall=21:49:17.746) 0.36, 1.34, 9.70, 
+	36 (ts=213083.538641816, wall=21:49:17.765) 0.32, 1.32, 9.68, 
+	37 (ts=213083.558576426, wall=21:49:17.785) 0.31, 1.39, 9.73, 
+	38 (ts=213083.578512467, wall=21:49:17.805) 0.29, 1.42, 9.73, 
+	39 (ts=213083.598447702, wall=21:49:17.825) 0.26, 1.35, 9.63, 
+	40 (ts=213083.618382389, wall=21:49:17.844) 0.25, 1.37, 9.84, 
+	41 (ts=213083.638318326, wall=21:49:17.865) 0.31, 1.31, 9.54, 
+	42 (ts=213083.658253144, wall=21:49:17.885) 0.36, 1.39, 9.77, 
+	43 (ts=213083.678189446, wall=21:49:17.904) 0.32, 1.33, 9.67, 
+	44 (ts=213083.698124185, wall=21:49:17.924) 0.34, 1.30, 9.72, 
+	45 (ts=213083.718045175, wall=21:49:17.944) 0.32, 1.34, 9.68, 
+	46 (ts=213083.737995409, wall=21:49:17.964) 0.29, 1.40, 9.70, 
+	47 (ts=213083.757930227, wall=21:49:17.984) 0.27, 1.37, 9.68, 
+	48 (ts=213083.777865826, wall=21:49:18.004) 0.26, 1.35, 9.72, 
+	49 (ts=213083.797801477, wall=21:49:18.024) 0.28, 1.33, 9.68, 
+	50 (ts=213083.817722726, wall=21:49:18.044) 0.33, 1.36, 9.70, 
+MMC5616 Magnetometer: last 10 events
+	 1 (ts=16397.966296192, wall=15:11:12.192) -27.40, -11.11, 32.12, 
+	 2 (ts=16397.986295828, wall=15:11:12.212) -27.97, -11.11, 31.52, 
+	 3 (ts=16398.006279057, wall=15:11:12.232) -27.74, -12.44, 30.45, 
+	 4 (ts=16398.026324656, wall=15:11:12.252) -28.80, -13.71, 30.94, 
+	 5 (ts=16398.046289005, wall=15:11:12.273) -28.43, -13.70, 30.62, 
+	 6 (ts=85483.905570059, wall=10:22:38.134) -9.27, 8.60, 0.15, 
+	 7 (ts=85483.925568367, wall=10:22:38.151) -10.05, 6.27, 1.61, 
+	 8 (ts=85483.945569382, wall=10:22:38.171) -10.19, 6.84, 1.84, 
+	 9 (ts=85483.965574070, wall=10:22:38.191) -10.30, 7.72, 0.35, 
+	10 (ts=85483.985570866, wall=10:22:38.211) -10.17, 5.99, 1.50, 
+TCS3743 Ambient Light: last 50 events
+	 1 (ts=212956.889867259, wall=21:47:11.118) 53.15, 0.00, 0.00, 
+	 2 (ts=212957.835344067, wall=21:47:12.066) 67.92, 0.00, 0.00, 
+	 3 (ts=212959.551054737, wall=21:47:13.779) 8.41, 0.00, 0.00, 
+	 4 (ts=212959.576043671, wall=21:47:13.803) 11.54, 0.00, 0.00, 
+	 5 (ts=212959.588534114, wall=21:47:13.816) 16.98, 0.00, 0.00, 
+	 6 (ts=212959.601032993, wall=21:47:13.828) 25.05, 0.00, 0.00, 
+	 7 (ts=212959.613523619, wall=21:47:13.840) 33.64, 0.00, 0.00, 
+	 8 (ts=212959.634348515, wall=21:47:13.861) 41.99, 0.00, 0.00, 
+	 9 (ts=212959.646841224, wall=21:47:13.874) 50.72, 0.00, 0.00, 
+	10 (ts=212959.659341484, wall=21:47:13.886) 58.93, 0.00, 0.00, 
+	11 (ts=212959.734304792, wall=21:47:13.961) 88.17, 0.00, 0.00, 
+	12 (ts=212968.528605988, wall=21:47:22.756) 32.29, 0.00, 0.00, 
+	13 (ts=212969.103133651, wall=21:47:23.331) 39.90, 0.00, 0.00, 
+	14 (ts=212969.123957662, wall=21:47:23.351) 47.60, 0.00, 0.00, 
+	15 (ts=212969.669331574, wall=21:47:23.897) 89.65, 0.00, 0.00, 
+	16 (ts=213021.117865689, wall=21:48:15.345) 27.18, 0.00, 0.00, 
+	17 (ts=213021.879942485, wall=21:48:16.107) 29.57, 0.00, 0.00, 
+	18 (ts=213022.083942822, wall=21:48:16.311) 26.82, 0.00, 0.00, 
+	19 (ts=213022.121414697, wall=21:48:16.349) 21.56, 0.00, 0.00, 
+	20 (ts=213022.225500947, wall=21:48:16.454) 17.53, 0.00, 0.00, 
+	21 (ts=213022.246310374, wall=21:48:16.474) 20.15, 0.00, 0.00, 
+	22 (ts=213022.375369098, wall=21:48:16.603) 18.41, 0.00, 0.00, 
+	23 (ts=213022.396185217, wall=21:48:16.624) 14.63, 0.00, 0.00, 
+	24 (ts=213022.408676571, wall=21:48:16.636) 11.12, 0.00, 0.00, 
+	25 (ts=213023.091510710, wall=21:48:17.323) 14.21, 0.00, 0.00, 
+	26 (ts=213023.720342714, wall=21:48:17.948) 46.14, 0.00, 0.00, 
+	27 (ts=213023.882706100, wall=21:48:18.110) 42.59, 0.00, 0.00, 
+	28 (ts=213023.907702688, wall=21:48:18.136) 37.83, 0.00, 0.00, 
+	29 (ts=213023.932666881, wall=21:48:18.160) 33.11, 0.00, 0.00, 
+	30 (ts=213023.957663755, wall=21:48:18.188) 29.24, 0.00, 0.00, 
+	31 (ts=213023.978486724, wall=21:48:18.206) 26.47, 0.00, 0.00, 
+	32 (ts=213023.990971463, wall=21:48:18.219) 23.77, 0.00, 0.00, 
+	33 (ts=213024.003465813, wall=21:48:18.231) 20.98, 0.00, 0.00, 
+	34 (ts=213024.190803442, wall=21:48:18.419) 23.99, 0.00, 0.00, 
+	35 (ts=213024.236588625, wall=21:48:18.464) 37.01, 0.00, 0.00, 
+	36 (ts=213024.407282062, wall=21:48:18.635) 31.52, 0.00, 0.00, 
+	37 (ts=213024.507192269, wall=21:48:18.736) 7.50, 0.00, 0.00, 
+	38 (ts=213024.644588623, wall=21:48:18.872) 10.00, 0.00, 0.00, 
+	39 (ts=213024.657062244, wall=21:48:18.884) 14.41, 0.00, 0.00, 
+	40 (ts=213024.669538181, wall=21:48:18.898) 19.31, 0.00, 0.00, 
+	41 (ts=213024.690348155, wall=21:48:18.918) 25.03, 0.00, 0.00, 
+	42 (ts=213024.702858623, wall=21:48:18.931) 30.72, 0.00, 0.00, 
+	43 (ts=213024.990130784, wall=21:48:19.218) 57.86, 0.00, 0.00, 
+	44 (ts=213025.677183048, wall=21:48:19.904) 88.98, 0.00, 0.00, 
+	45 (ts=213032.945514906, wall=21:48:27.173) 25.85, 0.00, 0.00, 
+	46 (ts=213033.815704695, wall=21:48:28.043) 0.54, 0.00, 0.00, 
+	47 (ts=213034.094619565, wall=21:48:28.322) 1.20, 0.00, 0.00, 
+	48 (ts=213035.505906410, wall=21:48:29.733) 5.47, 0.00, 0.00, 
+	49 (ts=213035.689099977, wall=21:48:29.916) 37.73, 0.00, 0.00, 
+	50 (ts=213036.188678310, wall=21:48:30.416) 88.66, 0.00, 0.00, 
+SPL07003 Barometer: last 10 events
+	 1 (ts=213033.927504669, wall=21:48:28.154) 991.75, 0.00, 0.00, 
+	 2 (ts=213034.007614773, wall=21:48:28.234) 991.76, 0.00, 0.00, 
+	 3 (ts=213034.087743939, wall=21:48:28.314) 991.75, 0.00, 0.00, 
+	 4 (ts=213034.167866283, wall=21:48:28.395) 991.75, 0.00, 0.00, 
+	 5 (ts=213034.248011491, wall=21:48:28.475) 991.75, 0.00, 0.00, 
+	 6 (ts=213034.328135971, wall=21:48:28.554) 991.77, 0.00, 0.00, 
+	 7 (ts=213034.408280501, wall=21:48:28.634) 991.77, 0.00, 0.00, 
+	 8 (ts=213034.488439876, wall=21:48:28.714) 991.76, 0.00, 0.00, 
+	 9 (ts=213034.568579381, wall=21:48:28.795) 991.76, 0.00, 0.00, 
+	10 (ts=213034.648714667, wall=21:48:28.875) 991.76, 0.00, 0.00, 
+Device Orientation: last 10 events
+	 1 (ts=212296.024841758, wall=21:36:10.255) 0.00, 
+	 2 (ts=212297.200994337, wall=21:36:11.508) 0.00, 
+	 3 (ts=212301.830818848, wall=21:36:16.081) 0.00, 
+	 4 (ts=212303.261115646, wall=21:36:17.574) 0.00, 
+	 5 (ts=212343.230456211, wall=21:36:57.526) 0.00, 
+	 6 (ts=212367.491458166, wall=21:37:21.808) 0.00, 
+	 7 (ts=212367.974877750, wall=21:37:22.203) 0.00, 
+	 8 (ts=212369.923537387, wall=21:37:24.229) 0.00, 
+	 9 (ts=212383.040882011, wall=21:37:37.338) 0.00, 
+	10 (ts=212911.918921137, wall=21:46:26.228) 0.00, 
+Active sensors:
+Dynamic Sensor Manager (handle=0x00000001, connections=1)
+ICM45631 Accelerometer (handle=0x01010001, connections=5)
+ICM45621 Accelerometer (handle=0x01010002, connections=1)
+Flip-side Magnetometer (handle=0x01010003, connections=1)
+ICM45631 Gyroscope (handle=0x01010006, connections=1)
+Virtual Ambient Light (handle=0x01010008, connections=1)
+TCS3743 Ambient Light (handle=0x01010009, connections=2)
+Linear Acceleration Sensor (handle=0x0101000f, connections=2)
+Significant Motion (wake-up) (handle=0x01010016, connections=4)
+Step Counter (handle=0x01010018, connections=1)
+Tilt Sensor (wake-up) (handle=0x0101001a, connections=1)
+Device Orientation (handle=0x0101001c, connections=2)
+Hinge Angle (wake-up) (handle=0x0101001f, connections=6)
+Auto Brightness 0 (handle=0x01010033, connections=3)
+Socket Buffer size = 984 events
+WakeLock Status: not held 
+Mode : NORMAL
+Sensor Privacy: disabled
+26 open event connections
+Connection Number: 0 
+	Operating Mode: NORMAL
+	 com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener | WakeLockRefCount 0 | uid 10262 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+Connection Number: 1 
+	Operating Mode: NORMAL
+	 com.android.server.display.AutomaticBrightnessController$2 | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Auto Brightness 0 0x01010033 | first flush pending: false | pending flush events 0 
+Connection Number: 2 
+	Operating Mode: NORMAL
+	 com.android.server.SensorNotificationService | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Dynamic Sensor Manager 0x00000001 | first flush pending: false | pending flush events 0 
+Connection Number: 3 
+	Operating Mode: NORMAL
+	 com.google.android.gms.fitness.sensors.local.LocalSensorAdapter$ConvertingListenerKitKat | WakeLockRefCount 0 | uid 10148 | cache size 0 | max cache size 0 | has sensor access: true
+	 Step Counter 0x01010018 | first flush pending: false | pending flush events 0 
+Connection Number: 4 
+	Operating Mode: NORMAL
+	 com.android.pixeldisplayservice.observers.AmbientLbeObserver$1 | WakeLockRefCount 0 | uid 10250 | cache size 0 | max cache size 0 | has sensor access: true
+	 TCS3743 Ambient Light 0x01010009 | first flush pending: false | pending flush events 0 
+Connection Number: 5 
+	Operating Mode: NORMAL
+	 com.android.pixeldisplayservice.observers.AmbientIrcObserver$1 | WakeLockRefCount 0 | uid 10250 | cache size 0 | max cache size 0 | has sensor access: true
+	 TCS3743 Ambient Light 0x01010009 | first flush pending: false | pending flush events 0 
+Connection Number: 6 
+	Operating Mode: NORMAL
+	 v92.c | WakeLockRefCount 0 | uid 10470 | cache size 0 | max cache size 9000 | has sensor access: true
+	 Linear Acceleration Sensor 0x0101000f | first flush pending: false | pending flush events 0 
+	 ICM45631 Gyroscope 0x01010006 | first flush pending: false | pending flush events 0 
+	 ICM45631 Accelerometer 0x01010001 | first flush pending: false | pending flush events 0 
+Connection Number: 7 
+	Operating Mode: NORMAL
+	 m16.goo | WakeLockRefCount 0 | uid 10148 | cache size 0 | max cache size 0 | has sensor access: true
+	 Significant Motion (wake-up) 0x01010016 | first flush pending: false | pending flush events 0 
+Connection Number: 8 
+	Operating Mode: NORMAL
+	 aidl_client_pid_11703 | WakeLockRefCount 0 | uid 1041 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+Connection Number: 9 
+	Operating Mode: NORMAL
+	 eev | WakeLockRefCount 0 | uid 10157 | cache size 0 | max cache size 0 | has sensor access: true
+	 Significant Motion (wake-up) 0x01010016 | first flush pending: false | pending flush events 0 
+Connection Number: 10 
+	Operating Mode: NORMAL
+	 com.android.server.power.FaceDownDetector | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 ICM45631 Accelerometer 0x01010001 | first flush pending: false | pending flush events 0 
+Connection Number: 11 
+	Operating Mode: NORMAL
+	 com.alibaba.security.ccrc.service.build.e3 | WakeLockRefCount 0 | uid 10446 | cache size 0 | max cache size 0 | has sensor access: false
+	 Flip-side Magnetometer 0x01010003 | first flush pending: false | pending flush events 0 
+	 ICM45631 Accelerometer 0x01010001 | first flush pending: false | pending flush events 0 
+Connection Number: 12 
+	Operating Mode: NORMAL
+	 ajw | WakeLockRefCount 0 | uid 10203 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+Connection Number: 13 
+	Operating Mode: NORMAL
+	 hgku | WakeLockRefCount 0 | uid 1010148 | cache size 0 | max cache size 0 | has sensor access: true
+	 Significant Motion (wake-up) 0x01010016 | first flush pending: false | pending flush events 0 
+Connection Number: 14 
+	Operating Mode: NORMAL
+	 android.view.OrientationEventListener | WakeLockRefCount 0 | uid 10326 | cache size 0 | max cache size 0 | has sensor access: false
+	 ICM45631 Accelerometer 0x01010001 | first flush pending: false | pending flush events 0 
+Connection Number: 15 
+	Operating Mode: NORMAL
+	 com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener | WakeLockRefCount 0 | uid 10262 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+Connection Number: 16 
+	Operating Mode: NORMAL
+	 com.android.server.policy.BookStyleClosedStatePredicate | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Device Orientation 0x0101001c | first flush pending: false | pending flush events 0 
+	 ICM45631 Accelerometer 0x01010001 | first flush pending: false | pending flush events 0 
+	 ICM45621 Accelerometer 0x01010002 | first flush pending: false | pending flush events 0 
+Connection Number: 17 
+	Operating Mode: NORMAL
+	 com.google.android.location.os.real.RealWakeUpTiltDetector$MySensorEventListener | WakeLockRefCount 0 | uid 10148 | cache size 0 | max cache size 0 | has sensor access: true
+	 Tilt Sensor (wake-up) 0x0101001a | first flush pending: false | pending flush events 0 
+Connection Number: 18 
+	Operating Mode: NORMAL
+	 com.android.server.wm.WindowOrientationListener$OrientationSensorJudge | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Device Orientation 0x0101001c | first flush pending: false | pending flush events 0 
+Connection Number: 19 
+	Operating Mode: NORMAL
+	 m16.hmu | WakeLockRefCount 0 | uid 10148 | cache size 0 | max cache size 0 | has sensor access: true
+	 Significant Motion (wake-up) 0x01010016 | first flush pending: false | pending flush events 0 
+Connection Number: 20 
+	Operating Mode: NORMAL
+	 X.9FG | WakeLockRefCount 0 | uid 10433 | cache size 0 | max cache size 3000 | has sensor access: false
+	 Linear Acceleration Sensor 0x0101000f | first flush pending: false | pending flush events 0 
+Connection Number: 21 
+	Operating Mode: NORMAL
+	 com.android.server.display.brightness.clamper.LightSensorController$1 | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Auto Brightness 0 0x01010033 | first flush pending: false | pending flush events 0 
+Connection Number: 22 
+	Operating Mode: NORMAL
+	 com.android.systemui.lowlight.AmbientLightModeMonitorImpl$mSensorEventListener$1 | WakeLockRefCount 0 | uid 10262 | cache size 0 | max cache size 0 | has sensor access: true
+	 Virtual Ambient Light 0x01010008 | first flush pending: false | pending flush events 0 
+Connection Number: 23 
+	Operating Mode: NORMAL
+	 com.android.server.display.BrightnessTracker$SensorListener | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Auto Brightness 0 0x01010033 | first flush pending: false | pending flush events 0 
+Connection Number: 24 
+	Operating Mode: NORMAL
+	 com.android.server.policy.FoldableDeviceStateProvider | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+Connection Number: 25 
+	Operating Mode: NORMAL
+	 com.android.server.wm.DisplayRotation$FoldController$2 | WakeLockRefCount 0 | uid 1000 | cache size 0 | max cache size 0 | has sensor access: true
+	 Hinge Angle (wake-up) 0x0101001f | first flush pending: false | pending flush events 0 
+0 open direct connections
+Previous Registrations:
+21:48:28 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:48:26 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:48:22 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:48:22 + 0x01010001 pid= 7450 uid=10326 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , android.view.OrientationEventListener)
+21:48:19 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:47:26 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:46:52 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:52 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:52 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:52 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:52 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:52 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:51 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:51 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:39 + 0x01010016 pid=12811 uid=1010148 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Significant Motion (wake-up), hgku)
+21:46:39 - 0x01010001 pid=12811 uid=1010148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.BatchSignalCollector$BatchSensorEventListener)
+21:46:39 - 0x01010001 pid=12811 uid=1010148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:37 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:37 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:37 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:37 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:36 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:36 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:35 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:46:35 + 0x01010001 pid=12811 uid=1010148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:34 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:34 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:33 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:33 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:33 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:33 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:32 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:32 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:32 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:32 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x01010001 pid=12811 uid=1010148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:30 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:30 + 0x0101001a pid=31325 uid=10148 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Tilt Sensor (wake-up)      , com.google.android.location.os.real.RealWakeUpTiltDetector$MySensorEventListener)
+21:46:30 - 0x01010008 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:30 - 0x01010001 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:29 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:29 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:29 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.location.weather.collector.PressureProvider)
+21:46:29 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:29 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x0101000f pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x01010010 pid=11374 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:46:28 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x01010010 pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Rotation Vector Sensor     , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 + 0x0101000f pid=11374 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (Linear Acceleration Sensor , com.google.ccc.abuse.droidguard.events.b)
+21:46:28 - 0x0101001f pid=19189 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:46:27 + 0x01010001 pid=12811 uid=1010148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:27 + 0x01010001 pid=12811 uid=1010148 samplingPeriod=   20000us batchingPeriod=2147483647us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.BatchSignalCollector$BatchSensorEventListener)
+21:46:27 - 0x01010016 pid=12811 uid=1010148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Significant Motion (wake-up), hgku)
+21:46:27 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:46:26 + 0x01010008 pid=31325 uid=10148 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:26 + 0x01010001 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:46:26 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:46:26 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.location.weather.collector.PressureProvider)
+21:46:26 + 0x01010016 pid=29858 uid=10157 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Significant Motion (wake-up), eev)
+21:46:26 - 0x01010014 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Gyroscope-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:26 - 0x01010011 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Flip-side Magnetometer-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:26 - 0x01010003 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Flip-side Magnetometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:26 - 0x01010001 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:25 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:46:25 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:46:25 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:46:25 + 0x01010008 pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.systemui.lowlight.AmbientLightModeMonitorImpl$mSensorEventListener$1)
+21:46:25 - 0x0101000c pid= 1916 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:46:25 + 0x0101000c pid= 1916 uid= 1000 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:46:25 - 0x01010008 pid= 1401 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:46:25 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:46:25 - 0x0101001c pid=11705 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:46:25 + 0x0101001f pid=19189 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:46:25 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:46:25 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:46:24 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod= 2000000us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.power.FaceDownDetector)
+21:46:24 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:46:24 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:46:23 - 0x0101001a pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Tilt Sensor (wake-up)      , com.google.android.location.os.real.RealWakeUpTiltDetector$MySensorEventListener)
+21:46:23 + 0x01010014 pid=31325 uid=10148 samplingPeriod=   10000us batchingPeriod=2147483647us result=OK (sensor, package): (ICM45631 Gyroscope-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:23 + 0x01010011 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=2147483647us result=OK (sensor, package): (Flip-side Magnetometer-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:23 + 0x01010003 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=2147483647us result=OK (sensor, package): (Flip-side Magnetometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:23 + 0x01010001 pid=31325 uid=10148 samplingPeriod=   10000us batchingPeriod=2147483647us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:46:23 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:46:23 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:46:23 - 0x01010028 pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Inner Touch Gesture Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:46:23 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:46:23 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:46:23 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:46:23 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:46:23 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:46:23 + 0x0101001c pid=11705 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:46:23 + 0x01010008 pid= 1401 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:46:23 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:46:23 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:46:23 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:46:23 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:46:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:46:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:46:22 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:46:22 - 0x01010030 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:46:22 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:44:53 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:44:51 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:42:43 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:42:41 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:40:07 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:40:05 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:40:03 + 0x0101001a pid=31325 uid=10148 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Tilt Sensor (wake-up)      , com.google.android.location.os.real.RealWakeUpTiltDetector$MySensorEventListener)
+21:40:03 - 0x01010008 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:40:03 - 0x01010001 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:39:59 + 0x01010008 pid=31325 uid=10148 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:39:59 + 0x01010001 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.location.collectionlib.SensorScanner$SensorEventListenerAdapter)
+21:39:59 - 0x01010016 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Significant Motion (wake-up), hgku)
+21:38:05 - 0x0101000b pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:38:03 + 0x0101000b pid=31325 uid=10148 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (SPL07003 Barometer         , com.google.android.gms.libs.location.validation.platform.SensorListenerAdapter)
+21:38:01 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:38:01 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.power.FaceDownDetector)
+21:38:01 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:38:00 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:38:00 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:38:00 + 0x01010028 pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Inner Touch Gesture Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:38:00 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:38:00 - 0x0101001f pid=19189 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:38:00 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:38:00 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:38:00 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:38:00 + 0x01010030 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:38:00 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:38:00 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:38:00 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:38:00 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:38:00 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:38:00 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:44 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:39 - 0x01010014 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Gyroscope-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:39 - 0x01010011 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Flip-side Magnetometer-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:39 - 0x01010003 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Flip-side Magnetometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:38 - 0x01010001 pid=31325 uid=10148 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:38 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:37 + 0x0101001f pid=19189 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:36 + 0x01010014 pid=31325 uid=10148 samplingPeriod=   10000us batchingPeriod=2147483647us result=OK (sensor, package): (ICM45631 Gyroscope-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:36 + 0x01010011 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=2147483647us result=OK (sensor, package): (Flip-side Magnetometer-Uncalibrated, com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:36 + 0x01010003 pid=31325 uid=10148 samplingPeriod=   20000us batchingPeriod=2147483647us result=OK (sensor, package): (Flip-side Magnetometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:36 + 0x01010001 pid=31325 uid=10148 samplingPeriod=   10000us batchingPeriod=2147483647us result=OK (sensor, package): (ICM45631 Accelerometer     , com.google.android.gms.actionlearner.pose.sensorcontroller.AndroidSensorEventProvider$sensorEventListener$1)
+21:37:36 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:36 - 0x01010028 pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Inner Touch Gesture Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:37:36 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:37:35 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:35 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:35 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod= 2000000us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.power.FaceDownDetector)
+21:37:35 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:35 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:35 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:35 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:35 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:35 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:35 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:35 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:35 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:37:35 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:35 - 0x01010030 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:35 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:35 - 0x0101000c pid= 1916 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:37:35 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:35 + 0x0101000c pid= 1916 uid= 1000 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:37:35 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:28 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:28 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:28 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.power.FaceDownDetector)
+21:37:28 + 0x01010028 pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Inner Touch Gesture Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:37:28 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.doze.DozeSensors$TriggerSensor)
+21:37:28 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:28 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:28 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:28 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:28 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:28 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:28 + 0x01010030 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:28 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:27 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:27 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:27 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:27 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:27 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:27 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:27 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:26 - 0x0101001f pid=16251 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:25 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:25 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:25 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:24 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:24 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:24 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:23 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:23 - 0x0101001c pid=11705 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:37:23 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:23 + 0x0101001f pid=16251 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:23 - 0x01010008 pid= 1401 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:37:23 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:23 + 0x0101001c pid=11705 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:37:23 + 0x01010008 pid= 1401 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:37:23 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:23 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:23 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:23 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:23 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:23 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:23 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:23 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:23 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:23 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:23 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:23 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:23 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:23 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:23 - 0x01010031 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:23 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:23 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:23 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:23 + 0x01010031 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:23 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:23 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:23 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:22 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:22 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:22 - 0x0101001f pid=16251 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:22 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:22 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:22 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:22 - 0x01010030 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:22 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:22 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:22 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:22 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:22 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:22 + 0x01010030 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:22 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:22 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:22 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:22 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:22 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:22 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:22 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:22 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:22 - 0x01010031 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:22 + 0x01010031 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:22 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:22 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:22 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:22 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:21 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:21 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:21 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:21 - 0x0101000c pid= 1916 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:37:21 + 0x0101000c pid= 1916 uid= 1000 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:37:21 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:21 + 0x0101001f pid=16251 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:21 - 0x0101001c pid=11705 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:37:21 - 0x01010008 pid= 1401 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:37:21 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:21 + 0x0101001c pid=11705 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:37:21 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:21 + 0x01010008 pid= 1401 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:37:20 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:20 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:20 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:20 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:20 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:20 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:20 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:20 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:37:20 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:20 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:37:20 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:37:20 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:37:20 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:20 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:20 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:37:20 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:20 - 0x0101001f pid=16251 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:37:20 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:20 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:37:20 - 0x01010030 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:20 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:37:20 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:37:20 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:20 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:37:20 + 0x01010030 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:37:20 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:37:20 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:37:20 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:37:20 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:37:20 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:58 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:58 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:36:57 - 0x0101000c pid= 1916 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:36:57 + 0x0101000c pid= 1916 uid= 1000 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:36:57 + 0x0101001f pid=16251 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:57 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:36:57 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:56 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:56 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:56 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:56 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:56 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:56 - 0x0101001c pid=11705 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:36:56 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:56 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:56 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:56 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:56 - 0x01010008 pid= 1401 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:36:56 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:56 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:56 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:56 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:56 - 0x01010031 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:56 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:56 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:56 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:56 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:56 + 0x01010031 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:56 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:56 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:56 + 0x0101001c pid=11705 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , aidl_client_pid_11705)
+21:36:56 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:56 + 0x01010008 pid= 1401 uid= 1000 samplingPeriod=    5000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , aidl_client_pid_1401)
+21:36:55 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:55 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:55 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:55 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:55 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:55 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:55 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:55 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:55 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:55 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:55 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:55 - 0x0101001f pid=16251 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:55 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:55 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:55 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:55 - 0x01010030 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:55 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:55 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:55 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:55 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:55 + 0x01010030 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 0 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:55 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:55 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:55 + 0x01010008 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:36:55 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:55 + 0x0101001b pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:36:55 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:55 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:43 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:42 + 0x0101001f pid=16251 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:41 - 0x0101001f pid=10446 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:41 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:39 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:39 + 0x0101001f pid=10446 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:36 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:29 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:25 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:24 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:22 - 0x0101001f pid=10446 uid=10503 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:21 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:17 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:16 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:16 + 0x01010009 pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:16 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:16 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:16 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:16 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 - 0x01010001 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 - 0x01010002 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:16 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:16 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:16 - 0x01010033 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:16 - 0x0101000a pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:16 + 0x01010033 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 0          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:16 - 0x01010031 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:16 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:16 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:16 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:16 + 0x01010031 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Binned Brightness 1 (wake-up), com.android.server.display.ScreenOffBrightnessSensorController)
+21:36:16 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.AutomaticBrightnessController$2)
+21:36:16 - 0x0101001c pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:16 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 - 0x0101001f pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 + 0x0101001f pid=12617 uid=10262 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.android.systemui.unfold.updates.hinge.HingeSensorAngleProvider$HingeAngleSensorListener)
+21:36:16 + 0x01010002 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45621 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:11 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=   66667us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.wm.WindowOrientationListener$OrientationSensorJudge)
+21:36:11 - 0x0101001f pid=12329 uid=10203 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:11 - 0x0101000a pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:11 - 0x0101001b pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Lift to Wake Sensor (wake-up), com.android.systemui.deviceentry.ui.binder.LiftToRunFaceAuthBinder$listener$1)
+21:36:10 - 0x0101000c pid= 1916 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:36:10 + 0x0101000c pid= 1916 uid= 1000 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), aidl_client_pid_1916)
+21:36:10 + 0x0101001f pid=10446 uid=10503 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , com.ajaxjiang.folddepth.sensor.HingeAngleSource)
+21:36:10 - 0x01010008 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Ambient Light      , com.android.server.biometrics.log.ALSProbe$1)
+21:36:10 - 0x0101000c pid=12617 uid=10262 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Virtual Proximity (wake-up), com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:10 + 0x0101001f pid=12329 uid=10203 samplingPeriod=       0us batchingPeriod=       0us result=OK (sensor, package): (Hinge Angle (wake-up)      , ajw)
+21:36:10 + 0x0101000c pid=12617 uid=10262 samplingPeriod=  100000us batchingPeriod=       0us result=OK (sensor, package): (Virtual Proximity (wake-up), com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:10 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:10 + 0x0101001c pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (Device Orientation         , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:10 + 0x01010001 pid=11890 uid= 1000 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (ICM45631 Accelerometer     , com.android.server.policy.BookStyleClosedStatePredicate)
+21:36:10 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.mode.DisplayModeDirector$BrightnessObserver$LightSensorEventListener)
+21:36:10 + 0x0101000a pid=12617 uid=10262 samplingPeriod=  200000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.systemui.util.sensors.ThresholdSensorImpl$1)
+21:36:10 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:10 + 0x01010034 pid=11890 uid= 1000 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.brightness.clamper.LightSensorController$1)
+21:36:10 + 0x0101000a pid=12565 uid=10250 samplingPeriod=  250000us batchingPeriod=       0us result=OK (sensor, package): (TMD3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
+21:36:10 - 0x01010034 pid=11890 uid= 1000 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (Auto Brightness 1          , com.android.server.display.BrightnessTracker$SensorListener)
+21:36:10 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientLbeObserver$1)
+21:36:10 - 0x01010009 pid=12565 uid=10250 samplingPeriod=   N/A  us batchingPeriod=   N/A  us result=OK (sensor, package): (TCS3743 Ambient Light      , com.android.pixeldisplayservice.observers.AmbientIrcObserver$1)
